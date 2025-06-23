@@ -24,7 +24,7 @@ const WalletGenerator = () => {
 
     const addWallet = () => {
         if (!mnemonic) return;
-
+ 
         const seed = bip39.mnemonicToSeedSync(mnemonic);
         const root = bip32.fromSeed(seed);
 
