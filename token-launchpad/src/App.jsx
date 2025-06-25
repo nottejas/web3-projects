@@ -12,6 +12,7 @@ import '@solana/wallet-adapter-react-ui/styles.css';
 
 function App() {
 
+
   return (
     <div>
       <ConnectionProvider endpoint={"https://api.devnet.solana.com"}>
